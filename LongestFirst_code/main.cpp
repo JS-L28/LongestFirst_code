@@ -31,8 +31,6 @@ void processPrefixes(int lastPosLevel, std::string& currenIP, std::string& Hash_
     Hash_h1_prefix = cmp_h1_Prefix.to_string();
     //Hash_h2_prefix = cmp_h2_Prefix.to_string(); // Update data 
 }
-void BFQuery(std::bitset<BF_size> BF, std::bitset<32> curIP, int Length, std::vector<std::string>& HASH, CRCgenerator* crc0);
-
 
 void BFQuery(std::bitset<BF_size> BF, std::bitset<32> curIP, int Length, std::vector<std::string>& HASH, CRCgenerator* crc0)
 {
@@ -71,7 +69,7 @@ void BFQuery(std::bitset<BF_size> BF, std::bitset<32> curIP, int Length, std::ve
 
     std::vector<unsigned long long> index(k_num);
 
-    for (int k = 0; k < k_num; k++) //BF index 만들기
+    for (int k = 0; k < k_num; k++) //BF index generation
     {
         int start = ranges[k][0];
         int ilength = ranges[k][1];
