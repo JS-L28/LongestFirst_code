@@ -16,13 +16,13 @@
 
 const int cbit = 64; //crcbits
 
-const int N = 20; //hash table addr* 고정
+const int N = 20; //hash table addr* 
 
 const int M = 20; //BF addr*
 const int k_num = 3; //hash index num
 const int BF_size = 1048576;
 
-const int HashTableSize = 1048576; //* 고정
+const int HashTableSize = 1048576; //* 
 
 
 //2^20 = 1048576, 2^21 = 2097152, 2^22 = 4194304, 2^23 = 8388608;
@@ -33,14 +33,14 @@ const int No_BFnodes = 203093; //programmed in BF*
 const int IP_LEN = 32; //length of IP addr
 const int PrefixLength = 32; //length of prefix
 
-const int PrefixSize = 6; //number of digits indicating length(size) of prefix. CRCgen에서 COUNT와 같음.
+const int PrefixSize = 6; //number of digits indicating length(size) of prefix. 
 const int BMP_LEN = 20; //num of digits indicating BMP
 
 const int TableWidth = 58; //width of the hash table
 
 const int Testset = 511803; //num of IPs to be tested*
 
-const int Ha = 10; //Hash Table만드는 hash 미는정도
+const int Ha = 10; //bits of hash separated (Hash Table)
 /*
 const int A = 0;
 const int B = 4;
@@ -69,7 +69,7 @@ const int I = 31;
 const int J = 36;
 
 const int K = 39; //11
-// const int HashTableSize = 1048576; //* 고
+// const int HashTableSize = 1048576; //* 
 
 
 //const int Testset = 336930; //port80
