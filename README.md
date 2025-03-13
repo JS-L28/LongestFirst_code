@@ -1,12 +1,10 @@
 # Project Overview
 
-## 1. Code Description
+## Code Lists
 - header.h  
 - CRCgenerator.h, CRCgenerator.cpp
   - Implements a class for obtaining CRC to generate hash indices.  
 - main.cpp
-
-## 2. How to Run the Code
 
 ### Required Input Files
 - IPAddr.txt
