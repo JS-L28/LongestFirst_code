@@ -26,10 +26,10 @@
 - BFNeg
 - int ranges
 
-## Execution
+### Execution
 Run the main.cpp file.
 
-## Output Files
+### Output Files
 - BF.txt
 - Hash.txt
 - result.txt
